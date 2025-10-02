@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(255, 224, 248);
+    background-image: url(luckystar-1758829498243-999.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+    
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size:90px;
+    color: aliceblue;
+    text-shadow: 0 0 9px purple;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px blue;
+}
+
+.classebacana{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+        
+
+}
+.div1{
+background-color: rgba(0, 0, 0, 0.192);
+}
+
+header{
+    background-image: url(Design\ sem\ nome\ \(7\).png);
+    padding: 40px;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
