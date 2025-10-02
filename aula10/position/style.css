@@ -1,0 +1,52 @@
+header{
+    position: fixed;
+    background-color: aliceblue;
+    background-size: cover;
+    margin: 0%;
+    width: 100%;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(https://64.media.tumblr.com/189d73f787dcc7ba41837f50a1d770fa/efcbb4b0d345f10e-1f/s1280x1920/2d4d7c0f263ec68696e75a264fc2390dcc9be3dc.gifv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+.caixa{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.caixa2{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    right: 50%;
+    position: sticky;
+    top: 0;
+}
+
+.caixa3{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    left: 30%;
+    top: 0%;
+}
+
+div{
+    background-color: rgba(240, 248, 255, 0.479);
+    color: rgb(51, 105, 153);
+}
+
+    
