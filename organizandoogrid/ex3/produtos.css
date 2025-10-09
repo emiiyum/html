@@ -1,0 +1,17 @@
+body{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+}
+
+div{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
