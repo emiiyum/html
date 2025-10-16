@@ -1,0 +1,119 @@
+.boody{
+    background-color: hotpink;
+    transition: background-color 6s ease;}
+
+.boody:hover{
+    background-color: blue;}
+
+.bott{
+    width: 90px;
+    transition: width 9s ease-in;}
+
+.bott:hover{
+    width: 900px;}
+
+.ahh{
+    background-color: rgb(163, 162, 228);
+    color: ghostwhite;
+    border: solid rgb(119, 103, 161);
+    transition: 0.5s ease-in;}
+
+.ahh:hover{
+    background-color: rgb(255, 175, 225);
+    border: solid rgb(212, 109, 207);
+    color: black;}
+
+.clonacartaoapk{
+    width: 500px;
+    text-align: center;
+    font-size: 80px;
+    color: red;
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+    transition: 0.5s ease-in;}
+
+.clonacartaoapk:hover{
+    background-color: rgb(0, 255, 0);
+    color: white;
+    font-size: 90px;
+    width: 550px;}
+
+.p1{
+   color: black;
+   font-size: large;
+   transition: 1s ease-in;}
+
+.p1:hover{
+    color: blueviolet;
+    font-size:xx-large;}
+
+.p2{
+   color: black;
+   font-size: large;
+   transition: 1s ease-in;}
+
+.p2:hover{
+    color: blueviolet;
+    font-size:xx-large;}
+
+.p3{
+   color: black;
+   font-size: large;
+   transition: 1s ease-in;}
+
+.p3:hover{
+    color: blueviolet;
+    font-size:xx-large;}
+
+img{
+    width: 300px;
+    transition: width 1s ease-in-out;}
+
+img:hover{
+    width: 500px;}
+
+
+
+    nav{
+        font-size: x-large;
+    }
+
+.bacate{
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+.bacate:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.bacaxi{
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+.bacaxi:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.bobora{
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+.bobora:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.meixa{
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+.meixa:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}

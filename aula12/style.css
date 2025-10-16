@@ -1,0 +1,42 @@
+button{
+    display: block;
+    margin :20px 0;
+}
+
+.sombra{
+    box-shadow: 2px 3px 10px rgb(47, 16, 88);
+}
+
+.linha{
+    text-decoration: underline;
+    transition: blue;
+}
+
+.sem{
+    background-color: antiquewhite;
+}
+
+.sem:hoover{
+    background-color: cadetblue;
+}
+
+.transition{
+    background-color: cadetblue;
+    transition: background-color 1s ease;
+}
+
+.transition:hover{
+    background-color: brown;
+}
+
+img{
+    width: 200px;
+    transition: width 1s ease;
+}
+
+img:hover{
+    width: 900px;
+
+
+    
+}
