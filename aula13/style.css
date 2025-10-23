@@ -1,0 +1,81 @@
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: mudacor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes mudacor {
+    from{
+        background-color: blue;
+    }to{
+        background-color: blueviolet;
+    }
+}
+
+.circulo{
+    
+    animation-name: movimento;
+    animation-duration: 0.01s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movimento {
+    0%{
+        transform: translatex(0);
+    }
+    100%{
+        transform: translatey(200px);
+    }
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 360px;
+    background-color: blue;
+    animation-name: aumentar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes aumentar {
+    from{
+        transform: scale(1);
+        background-color: blue;
+    }
+    to{
+        transform: scale(2);
+        background-color: blueviolet;
+    }
+    
+}
+
+img{
+    width: 800px;
+    margin-top: 800px;
+    animation: andar 1s infinite alternate ;
+
+}
+
+@keyframes andar {
+    0%{
+        transform: translateX(0) scaleX(1);
+    }
+    50%{
+        transform: translateX(900px) scaleX(1);
+    }
+    51%{
+        transform: translateX(900px) scaleX(-1);
+    }
+    100%{
+        transform: translateX(0) scaleX(-1);
+    }
+
+}
