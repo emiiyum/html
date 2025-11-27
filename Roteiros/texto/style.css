@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(eehfeh.png);
+    background-size: contain;
+}
+
+.container{
+    text-align: center;
+}
+
+.digitando{
+    color: white;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 3px solid white;
+    animation: digitar 8s steps(25) 1s forwards, piscar 0.6s infinite;
+}
+
+
+@keyframes digitar {
+    from{
+        width: 0;
+    }
+    to{
+        width: 2000px;
+    }
+}
+
+@keyframes piscar {
+    50%{
+        border-color: transparent;
+    }
+    100%{
+        border-color: white;
+    }
+}

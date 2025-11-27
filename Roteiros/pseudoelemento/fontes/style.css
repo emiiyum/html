@@ -1,0 +1,12 @@
+.fonte{
+    font-family: "";
+}
+
+@font-face{
+    font-family: "omor";
+    src: url(font/OMORI_GAME2.ttf)
+}
+
+.fonte2{
+    font-family: "omor";
+}

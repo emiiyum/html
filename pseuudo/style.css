@@ -1,0 +1,129 @@
+.botao1{
+    background-color: blue;
+    transition: 1s ease-in-out;
+}
+
+.botao1:hover{
+    background-color: pink;
+}
+
+.botao2{
+    background-color: rgb(0, 0, 204);
+    transition: 1s ease-in-out;
+}
+
+.botao2:hover{
+    background-color: rgb(255, 135, 155);
+}
+
+.botao3{
+    background-color: rgb(0, 0, 134);
+    transition: 1s ease-in-out;
+}
+
+.botao3:hover{
+    background-color: rgb(255, 0, 43);
+}
+
+.botaativa{
+    background-color: cadetblue;
+}
+
+.botaativa:active{
+    transform: scale(0.8);
+}
+
+.inpuuy{
+    transition: 0.5s ease-in-out;
+}
+.inpuuy:hover{
+    border-color: rgb(112, 95, 160);
+    box-shadow: rgb(114, 95, 160) 1px 1px 7px;
+}
+
+.inpuuy2{
+    transition: 0.5s ease-in-out;
+}
+
+.inpuuy2:hover{
+    border-color: cadetblue;
+    box-shadow: cadetblue 1px 1px 7px;
+}
+
+.inpuuy3{
+    transition: 0.5s ease-in-out;
+}
+.inpuuy3:hover{
+    border-color: rgb(160, 95, 95);
+    box-shadow: rgb(160, 95, 95) 1px 1px 7px;
+}
+
+.soinc{
+    background-color: rgb(59, 59, 182);
+    width: 335px;
+    transition: 1s ease-in-out ;
+}
+
+.soinc:hover{
+    transform: scale(1.5);
+    box-shadow: 1px 1px 7px black;
+    background-color: blue;
+}
+
+.gal{
+    img{
+        height: 117.4px;
+        transition: 1s ease-in-out;
+    }
+    
+}
+
+.ray:hover{
+    filter: grayscale(100%);
+}
+
+.chip:hover{
+    filter: grayscale(100%);
+}
+
+.maria:hover{
+    filter: grayscale(100%);
+}
+
+.depressiona{
+    margin-left: 50px;
+    scale: 2;
+    border-radius: 50%;
+}
+
+.depressiona:hover{
+    background: linear-gradient(blue, rgb(119, 119, 255));
+    border: 2px solid blue;
+
+    color: azure;
+}
+
+.depressiona:active{
+    background: linear-gradient(#0000a5, blue);
+    border: 2px solid #0000a5;
+}
+
+.email:focus{
+    border-color: #0000a5;
+    outline: none;
+}
+
+.nom:focus{
+    border-color: #0000a5;
+    outline: none;
+}
+
+.envi:hover{
+
+    background-color: rgb(0, 0, 255);
+}
+
+.envi:active{
+    background-color: #00009e;
+    transform: scale(0.9);
+}
