@@ -3,3 +3,17 @@
     align-items: center;
     text-align: center;
 }
+
+td,th,tr{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.aprov{
+    background-color: rgb(158, 255, 158);
+}
+
+.rep{
+    background-color: rgb(255, 108, 108);
+}
