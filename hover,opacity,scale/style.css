@@ -1,0 +1,13 @@
+img{
+    width: 300px;
+
+}
+
+.man{
+    opacity: 50%;
+}
+
+.man:hover{
+    opacity: 100%;
+    transform: scale(1.3);
+}
